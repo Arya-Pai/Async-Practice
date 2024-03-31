@@ -63,11 +63,11 @@ const recipeSteps = [
       document.getElementById('recipe-steps').appendChild(finishedElement);
     }
 
-    // Start cooking the recipe
-    document.getElementById('start-cooking').addEventListener('click', () => {
-      document.getElementById('recipe-steps').innerHTML = ''; // Clear previous steps
-      cookRecipe(recipeSteps);
-    });
+    // // Start cooking the recipe
+    // document.getElementById('start-cooking').addEventListener('click', () => {
+    //   document.getElementById('recipe-steps').innerHTML = ''; // Clear previous steps
+    //   cookRecipe(recipeSteps);
+    // });
 
 
     // function asyncStep(step) {
